@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamim Ahamed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-left">
+            <h1>Shamim Ahamed</h1>
+            <p>Helping businesses grow through design, branding & AI-powered solutions.</p>
+            <a href="#portfolio" class="btn">See My Work</a>
+        </div>
+        <div class="hero-right">
+            <img src="images/hero-image.png" alt="Illustration">
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a professional designer and branding strategist. I help businesses attract traffic, increase engagement, and grow online.</p>
+        <div class="skills">
+            <div class="skill">
+                <span>Branding & Logo Design</span>
+                <div class="skill-bar" data-progress="90%"></div>
+            </div>
+            <div class="skill">
+                <span>Business Growth Strategy</span>
+                <div class="skill-bar" data-progress="85%"></div>
+            </div>
+            <div class="skill">
+                <span>Social Media Marketing</span>
+                <div class="skill-bar" data-progress="80%"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="images/project1.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Branding Redesign</h3>
+                    <p>Increased client engagement by 40% through social media redesign.</p>
+                    <a href="#" class="btn-small">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.png" alt="Project 2">
+                <div class="project-overlay">
+                    <h3>Logo Design</h3>
+                    <p>Custom logos for startups and local businesses.</p>
+                    <a href="#" class="btn-small">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
